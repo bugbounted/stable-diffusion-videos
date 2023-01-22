@@ -52,7 +52,7 @@ class Interface:
         )
         self.interface = gr.TabbedInterface(
             [self.interface_images, self.interface_videos],
-            ["Images!", "Videos!"],
+            ["تصاویر!", "ویدیوها!"],
         )
 
     def fn_videos(
