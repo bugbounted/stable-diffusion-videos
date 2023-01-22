@@ -126,3 +126,4 @@ class Interface:
 
     def launch(self, *args, **kwargs):
         self.interface.launch(*args, **kwargs)
+print(gr.__version__)
