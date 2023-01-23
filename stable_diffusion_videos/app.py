@@ -12,7 +12,7 @@ class Interface:
         self.interface_images = gr.Interface(
             self.fn_images,
             inputs=[
-                gr.Textbox("توضیحات بیشتر  ، خروجی واضح تر", label="وصف متنی به انگلیسی"),
+                gr.Textbox("More details, clearer output", label="وصف متنی به انگلیسی"),
                 gr.Slider(1, 24, 1, step=1, label="اندازه دسته"),
                 gr.Slider(1, 16, 1, step=1, label="# دسته ها"),
                 gr.Slider(10, 100, 50, step=1, label="# مراحل استنتاج"),
@@ -33,7 +33,7 @@ class Interface:
                 gr.Textbox(
                     "blueberry spaghetti\nstrawberry spaghetti",
                     lines=2,
-                    label="درخواست‌ها با خط جدید جدا شده‌اند",
+                    label="گذاره های کوتاه توصیفی انگلیسی در هر خط",
                 ),
                 gr.Textbox("42\n1337", lines=2, label="دانه ها با خط جدید جدا شده اند"),
                 gr.Slider(
