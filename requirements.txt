@@ -1,4 +1,3 @@
-git+https://github.com/bugbounted/stable-diffusion-videos.git
 transformers>=4.21.0
 diffusers==0.11.1
 scipy
@@ -7,4 +6,3 @@ gradio
 librosa
 av<10.0.0
 realesrgan==0.2.5.0
-stable-diffusion-videos
